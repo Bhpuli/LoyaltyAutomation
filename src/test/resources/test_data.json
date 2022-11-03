@@ -1,0 +1,16 @@
+{
+  "users": {
+    "Core": {
+      "email": "AutomationQA@gmail.com",
+      "password": "P@ssword1"
+    },
+    "enthu": {
+      "email": "stagedoublereward6052@gmail.com",
+      "password": "P@ssword1"
+    },
+    "icon": {
+      "email": "stagedoublereward6048@gmail.com",
+      "password": "P@ssword1"
+    }
+  }
+}

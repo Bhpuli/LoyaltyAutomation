@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Gap Test Suite" data-provider-thread-count="3">
+    <listeners>
+        <listener class-name="com.gap.loy.automation.listeners.ListenersTestNG"/>
+<!--        <listener class-name="com.gap.loy.automation.listeners.RetryListenerClass"/>-->
+    </listeners>
+    <test name="Gap-Login-Tests" thread-count="3" group-by-instances="true">
+        <classes>
+            <class name="com.gap.loy.automation.runner.RunnerTest">
+            </class>
+        </classes>
+    </test>
+</suite>
